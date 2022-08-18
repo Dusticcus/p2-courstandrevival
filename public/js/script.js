@@ -32,7 +32,7 @@ let finalScore = 0;
 let enemyLevel = 20;
 
 
-window.document.addEventListener('keypress', function (e) {
+window.document.addEventListener('keyup', function (e) {
     if (e.key === 'Enter') {
         window.location.reload();
     }
